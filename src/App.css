@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
 }
 
 .App-logo {
@@ -35,4 +38,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Grafico1 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
+}
+
+.Grafico2 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
+}
+
+.Grafico3 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
+}
+
+.Grafico4 {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
+}
+
+.Grafico5 {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
 }
